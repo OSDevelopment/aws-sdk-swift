@@ -8,7 +8,7 @@ let package = Package(
         .executable(name: "aws-sdk-swift-codegen", targets: ["CodeGenerator"])
     ],
     dependencies: [
-        .package(url: "https://github.com/noppoMan/aws-sdk-swift-core.git", .upToNextMajor(from: "1.0.0")),
+        .package(url: "https://github.com/OSDevelopment/aws-sdk-swift-core.git", .branch("performance")),
         .package(url: "https://github.com/IBM-Swift/SwiftyJSON.git", .upToNextMajor(from: "17.0.1"))
     ],
     targets: [
